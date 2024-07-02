@@ -3,7 +3,7 @@
         <div class="container">
             <div class="primary-header-inner">
                 <div class="header-logo d-lg-block">
-                    <a href="index-2.html">
+                    <a href="i{{route('/')}}">
                         <img src="{{ asset('web/assets/img/logo/logo-dark.png')}}" alt="Logo">
                     </a>
                 </div>
@@ -19,7 +19,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="{{route('about-us')}}">About Us</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Service</a>
